@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+body{
+overflow-x:hidden ;
+}
+.section-1{
+    padding: 4% 10%;
+    height: 100vh;
+    width: 100%;
+    background: url(images/blue_bg.png);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.left-sec{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+width: 50px;
+height: 50PX;
+
+
+}
+.logo h2{
+font-size: 10px;
+padding-bottom:10px ;
+color: #0CC0DF;
+font-weight: bold;
+}
+.logo img{
+border-radius: 50%;
+border: 3px dotted #96318d;
+}
+.links ul{
+    display: flex;
+    align-items: center;
+}
+.links ul li{
+    display: inline-block;
+    padding: 15px;
+text-decoration: none;
+}
+.links ul li a{
+    color: #687073;
+    font-size: 20px;
+text-decoration: none;
+}
+button{
+    width: 10%;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 21px;
+    color: #000;
+    padding: 5px 5px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.content{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section-1 .text-line{
+    font-family:Roboto ;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+}
+.text-line h1{
+font-size: 49px;
+}
+.text-line span{
+color: #aa62a9;
+}
+.text-line h3{
+font-size: 29px;
+font-weight: 200;
+padding-top: 50px;
+color: #afafaf;
+
+}
+ .imageess{
+    position: relative;
+    width: 48%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+ .imageess img{
+    position: absolute;
+    width: 118%;
+    height: 100%;
+    left: 0%;
+}
+.imageess img.mask{
+    width: 60%;
+    left: 17%;
+}
+.imageess img.clouds{
+    width: 70%;
+    left: 15%;
+    height: 40%;
+    bottom: -90px;
+}
+.wafe{
+    width: 100%;
+    height: 20%;
+}
+.section-2{
+    padding: 5% 10%;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.road{
+    position: absolute;
+    width: 60%;
+    left: 22%;
+    top: 5%;
+    height: 70%;
+}
+.image-4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.image-4 .bike{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family:Roboto ;
+}
+
+.image-4 .bike .delevry img{
+    width: 70%;
+    padding-bottom: 20px;
+}
+.bike h3 ,.clock h3,.marker h3{
+    color: #687073;
+    padding-bottom: 10px;
+
+}
+.bike p,.clock p,.marker p {
+    color: #bdbdc3;
+}
+#chose{
+    position: relative;
+    padding-top: 75%;
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+    align-items: center;
+    height: 33%;
+    justify-content: center;
+}
+#photp{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+}
+
+#chose p{
+    color: #fff;
+    font-size: 30px;
+    z-index: 1;
+padding-right: 25px;
+}
+#chose h2{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 35px;
+    z-index: 1;
+    padding-right: 20px;
+
+}
+.image-4 .clock{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family:Roboto ;
+    justify-content: end;
+    padding-bottom: 95px;
+    z-index: 1;
+}
+
+.marker{
+    width: 32%;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-family:Roboto ;
+    padding-top:200px ;
+    z-index: 4;
+
+}
+.section-3{
+    padding: 5% 10%;
+    height: 100vh;
+    width: 100%;  
+}
+.image-center{
+    padding-top: 7%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+.left-flying{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
+
+
+}
+.mid-flying{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.mid-flying p{
+    color: #bdbdc3;
+    width: 50%;
+}
+.mid-flying h3{
+    color: #687073;
+    font-size: 25px;
+}
+.right-flying{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
+}
+footer{
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+}
+.back-g{
+    position: absolute;
+    width: 110%;
+    height: 150%;
+    left: -3%;
+    top: 0;
+}
+.absolot{
+    position: absolute;
+    width: 40%;
+    right: 10%;
+    bottom: 0%;
+    height: 80%;
+}
+footer .text-footer{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+
+
+}
+.store{
+    display: flex;
+    align-items: center;
+}
+.store .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    border-radius: 30px;
+    background: #fff;
+    padding: 10px;
+    height: 43px;
+}
+.store .app p{
+    font-size: 12px;
+}
+.store .app span{
+    font-size: 18px;
+    display: block;
+    color: #7a3d8a;
+}
+.store .play p{
+    font-size: 12px;
+}
+.store .play span{
+    font-size: 18px;
+    display: block;
+    color: #7a3d8a;
+}
+
+
+.store .play{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    border-radius: 30px;
+    background: #fff;
+    padding: 10px;
+    height: 43px;
+
+}
+.iconssss{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    width: 20%;
+}
+.iconssss img{
+    width: 22%;
+}
+.text-footer ul{
+    display: flex;
+    align-items: center;
+}
+.text-footer ul li{
+    padding-top: 10px;
+    display: inline-block;
+    margin-right: 14px;
+    text-decoration: none;
+
+}
+.text-footer ul li a{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
